@@ -1,0 +1,9 @@
+// pages/settings.tsx
+export default function Settings() {
+  return (
+    <div>
+      <h1>Settings</h1>
+      <p>Here are your settings options.</p>
+    </div>
+  );
+}
