@@ -17,9 +17,9 @@ export default function Page() {
             </Link>
           </li>
           <li>
-            <Link href="/settings">
+            <Link href="/forms">
               <a style={{ fontSize: '20px', color: 'blue', textDecoration: 'underline' }}>
-                Go to Settings
+                Go To Forms
               </a>
             </Link>
           </li>
