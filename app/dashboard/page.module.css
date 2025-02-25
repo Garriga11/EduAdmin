@@ -1,0 +1,15 @@
+/* app/dashboard/page.module.css */
+.dashboardContainer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.dashboardTitle {
+    font-size: 2rem;
+    color: #333;
+}
+
+.dashboardText {
+    font-size: 1.2rem;
+    color: #666;
+}
