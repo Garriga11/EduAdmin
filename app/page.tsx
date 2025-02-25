@@ -1,7 +1,7 @@
-// pages/page.tsx
+// app/page.tsx
 import Link from 'next/link';
 
-export default function Page() {
+export default function HomePage() {
   return (
     <div style={{ textAlign: 'center', marginTop: '20px' }}>
       <h1>Welcome to Edu Admin Demo</h1>
@@ -15,7 +15,21 @@ export default function Page() {
                 Go to Dashboard
               </a>
             </Link>
-         
+          </li>
+          <li>
+            <Link href="/settings">
+              <a style={{ fontSize: '20px', color: 'blue', textDecoration: 'underline' }}>
+                Go to Settings
+              </a>
+            </Link>
+          </li>
+          <li>
+            <Link href="/profile">
+              <a style={{ fontSize: '20px', color: 'blue', textDecoration: 'underline' }}>
+                Go to Profile
+              </a>
+            </Link>
+          </li>
         </ul>
       </nav>
     </div>
