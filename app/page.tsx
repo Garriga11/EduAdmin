@@ -15,21 +15,7 @@ export default function Page() {
                 Go to Dashboard
               </a>
             </Link>
-          </li>
-          <li>
-            <Link href="/forms">
-              <a style={{ fontSize: '20px', color: 'blue', textDecoration: 'underline' }}>
-                Go To Forms
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/profile">
-              <a style={{ fontSize: '20px', color: 'blue', textDecoration: 'underline' }}>
-                Go to Profile
-              </a>
-            </Link>
-          </li>
+         
         </ul>
       </nav>
     </div>
