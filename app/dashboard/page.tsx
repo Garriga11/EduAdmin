@@ -1,5 +1,5 @@
 // app/dashboard/page.tsx
-import styles from 'page.module.css';  // Import the CSS module
+import styles from './page.module.css';  // Import the CSS module
 
 export default function Dashboard() {
     return (
