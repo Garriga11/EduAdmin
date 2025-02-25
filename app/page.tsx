@@ -1,37 +1,22 @@
 // app/page.tsx
 import Link from 'next/link';
+import FormsPage from './forms/page';  // Import the forms page component
 
 export default function HomePage() {
   return (
-    <div style={{ textAlign: 'center', marginTop: '20px' }}>
-      <h1>Welcome to Edu Admin Demo</h1>
-      <p>Click on any of the links below to visit the corresponding component:</p>
+    <div style={{ textAlign: 'center' }}>
+      <h1>Welcome to the Main Page</h1>
+      <p>This is the main page where you can access the form.</p>
+      
+      {/* Render FormsPage inside the main page */}
+      <FormsPage />
 
-      <nav>
-        <ul style={{ listStyleType: 'none', padding: 0 }}>
-          <li>
-            <Link href="/dashboard">
-              <a style={{ fontSize: '20px', color: 'blue', textDecoration: 'underline' }}>
-                Go to Dashboard
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/settings">
-              <a style={{ fontSize: '20px', color: 'blue', textDecoration: 'underline' }}>
-                Go to Settings
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/profile">
-              <a style={{ fontSize: '20px', color: 'blue', textDecoration: 'underline' }}>
-                Go to Profile
-              </a>
-            </Link>
-          </li>
-        </ul>
-      </nav>
+      <div style={{ marginTop: '20px' }}>
+        {/* You can also add a link to navigate to the form */}
+        <Link href="/forms">
+          <a>Go to Form Page</a>
+        </Link>
+      </div>
     </div>
   );
 }
