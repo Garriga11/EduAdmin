@@ -1,15 +1,15 @@
 /* app/dashboard/page.module.css */
-.dashboardContainer {
+.formsContainer {
     text-align: center;
     margin-top: 20px;
 }
 
-.dashboardTitle {
+.formsTitle {
     font-size: 2rem;
     color: #333;
 }
 
-.dashboardText {
+.frormsText {
     font-size: 1.2rem;
     color: #666;
 }
