@@ -1,4 +1,4 @@
-/* app/dashboard/page.module.css */
+/*
 .studentsContainer {
     text-align: center;
     margin-top: 20px;
@@ -9,7 +9,7 @@
     color: #333;
 }
 
-.StudentsText {
+.studentsText {
     font-size: 1.2rem;
     color: #666;
 }
