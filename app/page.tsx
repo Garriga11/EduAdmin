@@ -18,7 +18,7 @@ export default function Page() {
       <Link href="/settings">
       <a className="text-lg hover:text-gray-200">Requests</a>
       </Link>
-      <Link href="/profile">
+      <Link href="/forms">
       <a className="text-lg hover:text-gray-200">Forms</a>
       </Link>
       </div>
