@@ -33,21 +33,21 @@ export default function Page() {
       <li>
       <Link href="/dashboard">
       <a className="text-xl text-blue-600 hover:underline">
-      Go to Dashboard
+          Go to Dashboard
       </a>
       </Link>
       </li>
       <li>
       <Link href="/settings">
       <a className="text-xl text-blue-600 hover:underline">
-      Requests
+          Requests
       </a>
       </Link>
       </li>
       <li>
       <Link href="/profile">
       <a className="text-xl text-blue-600 hover:underline">
-      Forms
+          Forms
       </a>
       </Link>
       </li>
