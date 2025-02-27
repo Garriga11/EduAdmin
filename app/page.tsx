@@ -8,7 +8,7 @@ export default function Page() {
       <div className="flex justify-between items-center h-16">
       <div className="flex items-center">
       <Link href="/" className="text-2xl font-bold">
-      Edu Admin Demo
+      Edu Admin 
       </Link>
       </div>
       <div className="hidden md:flex space-x-6">
@@ -33,7 +33,7 @@ export default function Page() {
       <li>
       <Link href="/dashboard">
       <a className="text-xl text-blue-600 hover:underline">
-          Go to Dashboard
+          Dashboard
       </a>
       </Link>
       </li>
