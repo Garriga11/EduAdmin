@@ -45,7 +45,7 @@ export default function Page() {
       </Link>
       </li>
       <li>
-      <Link href="/profile">
+      <Link href="/forms">
       <a className="text-xl text-blue-600 hover:underline">
           Forms
       </a>
