@@ -15,8 +15,8 @@ export default function Page() {
       <Link href="/dashboard">
       <a className="text-lg hover:text-gray-200">Dashboard</a>
       </Link>
-      <Link href="/settings">
-      <a className="text-lg hover:text-gray-200">Requests</a>
+      <Link href="/studentList">
+      <a className="text-lg hover:text-gray-200">Student List</a>
       </Link>
       <Link href="/forms">
       <a className="text-lg hover:text-gray-200">Forms</a>
@@ -27,7 +27,7 @@ export default function Page() {
       </nav>
       <div className="flex flex-col items-center justify-center flex-grow bg-gray-100 py-10">
       <h1 className="text-4xl font-bold text-blue-600 mb-6">Welcome to Edu Admin Demo</h1>
-      <p className="text-lg text-gray-700 mb-8">Click on any of the links below to visit the corresponding component:</p>
+      <p className="text-lg text-gray-700 mb-8">Click on any of the links below:</p>
       <nav>
       <ul className="list-none p-0 space-y-4">
       <li>
@@ -38,9 +38,9 @@ export default function Page() {
       </Link>
       </li>
       <li>
-      <Link href="/settings">
+      <Link href="/studentList">
       <a className="text-xl text-blue-600 hover:underline">
-          Requests
+          Student List
       </a>
       </Link>
       </li>
